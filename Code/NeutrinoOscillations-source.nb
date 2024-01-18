@@ -1,0 +1,1397 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 8.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[     53910,       1387]
+NotebookOptionsPosition[     51743,       1309]
+NotebookOutlinePosition[     52386,       1334]
+CellTagsIndexPosition[     52343,       1331]
+WindowTitle->Neutrino Oscillations - Source
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Neutrino Oscillations", "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False,
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[BoxData[
+ GraphicsBox[RasterBox[CompressedData["
+1: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
+FP/69esnAAAAAAAAAAAAwM74B4thROM=
+   "], {{0, 0}, {1800, 25}}, {0, 255},
+   ColorFunction->RGBColor],
+  ImageSize->{1800, 25},
+  PlotRange->{{0, 1800}, {0, 25}}]], "Section",
+ CellFrame->{{0, 0}, {0, 0}},
+ ShowCellBracket->False],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"X", "[", "\[Theta]23_", "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "0", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", 
+      RowBox[{"Cos", "[", "\[Theta]23", "]"}], ",", 
+      RowBox[{"Sin", "[", "\[Theta]23", "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", 
+      RowBox[{"-", 
+       RowBox[{"Sin", "[", "\[Theta]23", "]"}]}], ",", 
+      RowBox[{"Cos", "[", "\[Theta]23", "]"}]}], "}"}]}], "}"}]}]], "Input",
+ InitializationCell->True,
+ CellID->60690850],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Y", "[", 
+   RowBox[{"\[Theta]13_", ",", "\[Delta]_"}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Cos", "[", "\[Theta]13", "]"}], ",", "0", ",", 
+      RowBox[{
+       RowBox[{"Sin", "[", "\[Theta]13", "]"}], "*", 
+       RowBox[{"Exp", "[", 
+        RowBox[{
+         RowBox[{"-", "\[ImaginaryI]"}], "*", "\[Delta]"}], "]"}]}]}], "}"}], 
+    ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "1", ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{"Sin", "[", "\[Theta]13", "]"}]}], "*", 
+       RowBox[{"Exp", "[", 
+        RowBox[{"\[ImaginaryI]", "*", "\[Delta]"}], "]"}]}], ",", "0", ",", 
+      RowBox[{"Cos", "[", "\[Theta]13", "]"}]}], "}"}]}], "}"}]}]], "Input",
+ InitializationCell->True,
+ CellID->460849761],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Z", "[", "\[Theta]12_", "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Cos", "[", "\[Theta]12", "]"}], ",", 
+      RowBox[{"Sin", "[", "\[Theta]12", "]"}], ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"-", 
+       RowBox[{"Sin", "[", "\[Theta]12", "]"}]}], ",", 
+      RowBox[{"Cos", "[", "\[Theta]12", "]"}], ",", "0"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"0", ",", "0", ",", "1"}], "}"}]}], "}"}]}]], "Input",
+ InitializationCell->True,
+ CellID->81814952],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"U", "[", 
+   RowBox[{
+   "\[Theta]23_", ",", "\[Theta]13_", ",", "\[Theta]12_", ",", "\[Delta]_"}], 
+   "]"}], ":=", 
+  RowBox[{
+   RowBox[{"X", "[", "\[Theta]23", "]"}], ".", 
+   RowBox[{"Y", "[", 
+    RowBox[{"\[Theta]13", ",", "\[Delta]"}], "]"}], ".", 
+   RowBox[{"Z", "[", "\[Theta]12", "]"}]}]}]], "Input",
+ InitializationCell->True,
+ CellID->353308],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"V", "[", 
+   RowBox[{
+   "\[Theta]23_", ",", "\[Theta]13_", ",", "\[Theta]12_", ",", "\[Delta]_"}], 
+   "]"}], ":=", 
+  RowBox[{"Inverse", "[", 
+   RowBox[{"U", "[", 
+    RowBox[{
+    "\[Theta]23", ",", "\[Theta]13", ",", "\[Theta]12", ",", "\[Delta]"}], 
+    "]"}], "]"}]}]], "Input",
+ InitializationCell->True,
+ CellID->195916846],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Q", "[", 
+    RowBox[{
+    "\[Alpha]_", ",", "\[Beta]_", ",", "L_", ",", "\[Theta]23_", ",", 
+     "\[Theta]13_", ",", "\[Theta]12_", ",", "\[Delta]_", ",", "m_"}], "]"}], 
+   ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"Abs", "[", 
+      RowBox[{
+       UnderoverscriptBox["\[Sum]", 
+        RowBox[{"i", "=", "1"}], "3"], 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"U", "[", 
+           RowBox[{
+           "\[Theta]23", ",", "\[Theta]13", ",", "\[Theta]12", ",", 
+            "\[Delta]"}], "]"}], "[", 
+          RowBox[{"[", 
+           RowBox[{"\[Alpha]", ",", "i"}], "]"}], "]"}], "\[Conjugate]"}], 
+        "*", 
+        RowBox[{
+         RowBox[{"U", "[", 
+          RowBox[{
+          "\[Theta]23", ",", "\[Theta]13", ",", "\[Theta]12", ",", 
+           "\[Delta]"}], "]"}], "[", 
+         RowBox[{"[", 
+          RowBox[{"\[Beta]", ",", "i"}], "]"}], "]"}], "*", 
+        RowBox[{"Exp", "[", 
+         RowBox[{
+          RowBox[{"-", "\[ImaginaryI]"}], "*", "2.53", "*", 
+          RowBox[{"m", "[", 
+           RowBox[{"[", "i", "]"}], "]"}], "*", "L"}], "]"}]}]}], "]"}], 
+     ")"}], "^", "2"}]}], ";"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.467549362453125*^9, 3.46754936296875*^9}},
+ CellID->153672748],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"M", "[", 
+   RowBox[{"m_", ",", "n_"}], "]"}], ":=", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "m", ",", "n"}], "}"}]}]], "Input",
+ InitializationCell->True,
+ CellID->92974252],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"S", "=", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "600", ",", "100"}], "}"}]}], ";"}]], "Input",
+ InitializationCell->True,
+ CellChangeTimes->{
+  3.35696210375764*^9, {3.467658736920597*^9, 3.4676587506839733`*^9}},
+ CellID->415433832],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"j", "\[Equal]", "4"}], ",", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"c", "[", "r", "]"}], ",", 
+           RowBox[{"Rectangle", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{
+                UnderoverscriptBox["\[Sum]", 
+                 RowBox[{"k", "=", "1"}], 
+                 RowBox[{"r", "-", "1"}]], 
+                RowBox[{
+                 RowBox[{"Abs", "[", 
+                  RowBox[{
+                   RowBox[{"V", "[", 
+                    RowBox[{
+                    "\[Theta]23", ",", "\[Theta]13", ",", "\[Theta]12", ",", 
+                    "\[Delta]"}], "]"}], "[", 
+                   RowBox[{"[", 
+                    RowBox[{"i", ",", "k"}], "]"}], "]"}], "]"}], "^", 
+                 "2"}]}], ",", 
+               RowBox[{
+                RowBox[{"S", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"M", "[", 
+                  RowBox[{"m", ",", "n"}], "]"}], "[", 
+                 RowBox[{"[", "i", "]"}], "]"}]}]}], "}"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{
+                UnderoverscriptBox["\[Sum]", 
+                 RowBox[{"k", "=", "1"}], "r"], 
+                RowBox[{
+                 RowBox[{"Abs", "[", 
+                  RowBox[{
+                   RowBox[{"V", "[", 
+                    RowBox[{
+                    "\[Theta]23", ",", "\[Theta]13", ",", "\[Theta]12", ",", 
+                    "\[Delta]"}], "]"}], "[", 
+                   RowBox[{"[", 
+                    RowBox[{"i", ",", "k"}], "]"}], "]"}], "]"}], "^", 
+                 "2"}]}], ",", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"S", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "*", 
+                 RowBox[{
+                  RowBox[{"M", "[", 
+                   RowBox[{"m", ",", "n"}], "]"}], "[", 
+                  RowBox[{"[", "i", "]"}], "]"}]}], "+", "0.01"}]}], "}"}]}], 
+            "]"}], ",", "Black", ",", 
+           RowBox[{"Inset", "[", 
+            RowBox[{
+             RowBox[{"Style", "[", 
+              RowBox[{
+               SubscriptBox["\"\<m\>\"", "i"], ",", "Italic"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"-", "0.1"}], ",", 
+               RowBox[{
+                RowBox[{"S", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "*", 
+                RowBox[{
+                 RowBox[{"M", "[", 
+                  RowBox[{"m", ",", "n"}], "]"}], "[", 
+                 RowBox[{"[", "i", "]"}], "]"}]}]}], "}"}]}], "]"}], ",", 
+           RowBox[{"Inset", "[", 
+            RowBox[{
+             RowBox[{"Style", "[", 
+              RowBox[{
+              "\"\<hierarchy of the mass states\>\"", ",", "Black", ",", 
+               "Italic", ",", "20"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{"0.5", ",", 
+               RowBox[{
+                RowBox[{"Min", "[", 
+                 RowBox[{"Table", "[", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"S", "[", 
+                    RowBox[{"[", "i", "]"}], "]"}], "*", 
+                    RowBox[{
+                    RowBox[{"M", "[", 
+                    RowBox[{"m", ",", "n"}], "]"}], "[", 
+                    RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+                   RowBox[{"{", 
+                    RowBox[{"i", ",", "1", ",", "3"}], "}"}]}], "]"}], "]"}], 
+                "+", "0.6"}]}], "}"}]}], "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"r", ",", "1", ",", "3"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"i", ",", "1", ",", "3"}], "}"}]}], "]"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"-", "0.2"}], ",", "1"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Min", "[", 
+              RowBox[{"Table", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"S", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "*", 
+                 RowBox[{
+                  RowBox[{"M", "[", 
+                   RowBox[{"m", ",", "n"}], "]"}], "[", 
+                  RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"i", ",", "1", ",", "3"}], "}"}]}], "]"}], "]"}], 
+             "-", "0.1"}], ",", 
+            RowBox[{
+             RowBox[{"Min", "[", 
+              RowBox[{"Table", "[", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"S", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "*", 
+                 RowBox[{
+                  RowBox[{"M", "[", 
+                   RowBox[{"m", ",", "n"}], "]"}], "[", 
+                  RowBox[{"[", "i", "]"}], "]"}]}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"i", ",", "1", ",", "3"}], "}"}]}], "]"}], "]"}], 
+             "+", "0.7"}]}], "}"}]}], "}"}]}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"400", ",", "300"}], "}"}]}]}], "]"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"Evaluate", "@", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"Q", "[", 
+           RowBox[{
+           "j", ",", "i", ",", "L", ",", "\[Theta]23", ",", "\[Theta]13", ",",
+             "\[Theta]12", ",", "\[Delta]", ",", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "m", ",", "n"}], "}"}]}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{"x", "\[Equal]", "4"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+              RowBox[{"{", "x", "}"}]}], "]"}]}], "}"}]}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"L", ",", "0", ",", "30000"}], "}"}], ",", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"0", ",", "1.1"}], "}"}]}], ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"c", "[", "i", "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{"x", "\[Equal]", "4"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+              RowBox[{"{", "x", "}"}]}], "]"}]}], "}"}]}], "]"}]}], ",", 
+       RowBox[{"AxesLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<distance(km)\>\"", ",", 
+          SubscriptBox["P", "j"]}], "}"}]}], ",", 
+       RowBox[{
+       "PlotLabel", "\[Rule]", 
+        "\"\<probability of finding \\neach type of (1GeV) neutrino\>\""}], 
+       ",", "\[IndentingNewLine]", 
+       RowBox[{"Epilog", "\[Rule]", 
+        RowBox[{"Inset", "[", 
+         RowBox[{
+          RowBox[{"Panel", "[", "\[IndentingNewLine]", 
+           RowBox[{"Grid", "[", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Graphics", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"Blue", ",", "Thick", ",", 
+                    RowBox[{"Line", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", "0"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+                  ",", 
+                  RowBox[{"ImageSize", "\[Rule]", "14"}], ",", 
+                  RowBox[{"AspectRatio", "\[Rule]", ".1"}]}], "]"}], ",", 
+                "\"\<electron\>\""}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Graphics", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"Red", ",", "Thick", ",", 
+                    RowBox[{"Line", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", "0"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+                  ",", 
+                  RowBox[{"ImageSize", "\[Rule]", "14"}], ",", 
+                  RowBox[{"AspectRatio", "\[Rule]", "1"}]}], "]"}], ",", 
+                "\"\<muon\>\""}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"Graphics", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"Green", ",", "Thick", ",", 
+                    RowBox[{"Line", "[", 
+                    RowBox[{"{", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"0", ",", "0"}], "}"}], ",", 
+                    RowBox[{"{", 
+                    RowBox[{"1", ",", "0"}], "}"}]}], "}"}], "]"}]}], "}"}], 
+                  ",", 
+                  RowBox[{"ImageSize", "\[Rule]", "14"}], ",", 
+                  RowBox[{"AspectRatio", "\[Rule]", ".1"}]}], "]"}], ",", 
+                "\"\<tau\>\""}], "}"}]}], "}"}], "]"}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"27000", ",", ".9"}], "}"}]}], "]"}]}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"400", ",", "300"}], "}"}]}]}], "]"}]}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"j", ",", "1", ",", "\"\<initial flavor\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"1", "\[Rule]", "\"\<electron\>\""}], " ", ",", 
+       RowBox[{"2", "\[Rule]", "\"\<muon\>\""}], " ", ",", 
+       RowBox[{"3", " ", "\[Rule]", "\"\<tau\>\""}], ",", 
+       RowBox[{"4", "\[Rule]", "\"\<mass hierarchy\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Top"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"x", ",", "4", ",", "\"\<indicated flavors\>\""}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"1", "\[Rule]", "\"\<electron\>\""}], " ", ",", 
+       RowBox[{"2", "\[Rule]", "\"\<muon\>\""}], " ", ",", 
+       RowBox[{"3", "\[Rule]", "\"\<tau\>\""}], " ", ",", 
+       RowBox[{"4", "\[Rule]", "\"\<all\>\""}]}], "}"}], ",", 
+     RowBox[{"ControlPlacement", "\[Rule]", "Top"}], ",", 
+     RowBox[{"Enabled", "\[RuleDelayed]", 
+      RowBox[{"Not", "[", 
+       RowBox[{"j", "===", "4"}], "]"}]}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Style", "[", 
+    RowBox[{"\"\<mixing parameters\>\"", ",", "Bold"}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Theta]23", ",", "0.79", ",", 
+       "\"\<\!\(\*SubscriptBox[\(\[Theta]\), \(23\)]\)\>\""}], "}"}], ",", 
+     "0", ",", "2", ",", ".01", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Theta]13", ",", 
+       RowBox[{"-", "0.2"}], ",", 
+       "\"\<\!\(\*SubscriptBox[\(\[Theta]\), \(13\)]\)\>\""}], "}"}], ",", 
+     RowBox[{"-", "0.2"}], ",", "0.2", ",", ".01", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "\[Theta]12", ",", "0.59", ",", 
+       "\"\<\!\(\*SubscriptBox[\(\[Theta]\), \(12\)]\)\>\""}], "}"}], ",", 
+     "0", ",", 
+     RowBox[{"2", "Pi"}], ",", ".01", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"\[Delta]", ",", "0", ",", "1", ",", ".01", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   "\"\<                                                              \>\"", 
+   ",", "\[IndentingNewLine]", 
+   RowBox[{"Style", "[", 
+    RowBox[{"\"\<mass parameters\>\"", ",", "Bold"}], "]"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"m", ",", "0.00008", ",", 
+       SuperscriptBox[
+        SubscriptBox["\[CapitalDelta]m", "21"], "2"]}], "}"}], ",", 
+     RowBox[{"-", "0.00010"}], ",", "0.00010", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"n", ",", "0.0024", ",", 
+       SuperscriptBox[
+        SubscriptBox["\[CapitalDelta]m", "31"], "2"]}], "}"}], ",", 
+     RowBox[{"-", "0.0044"}], ",", "0.0044", ",", 
+     RowBox[{"Appearance", "\[Rule]", "\"\<Labeled\>\""}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"ControlPlacement", "\[Rule]", "Left"}], ",", 
+   RowBox[{"AutorunSequencing", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "3", ",", "5"}], "}"}]}], ",", 
+   RowBox[{"SaveDefinitions", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.35696210375764*^9, 3.467471704719635*^9, 3.46747183395401*^9, {
+   3.46747371876651*^9, 3.46747383917276*^9}, {3.46748254270401*^9, 
+   3.467482550875885*^9}, {3.467546712875*^9, 3.46754677253125*^9}, {
+   3.467546834625*^9, 3.4675469066875*^9}, {3.46754697646875*^9, 
+   3.467546986046875*^9}, {3.46754724025*^9, 3.467547241234375*^9}, {
+   3.467547294546875*^9, 3.467547298921875*^9}, {3.46754756965625*^9, 
+   3.467547586203125*^9}, 3.46754761921875*^9, {3.467547726296875*^9, 
+   3.46754778653125*^9}, {3.4675478698125*^9, 3.4675479079375*^9}, {
+   3.467549379609375*^9, 3.467549380109375*^9}, {3.4676587601759224`*^9, 
+   3.4676588645883627`*^9}, {3.467658896074511*^9, 3.467658923844288*^9}, {
+   3.467659011451048*^9, 3.467659054212323*^9}, {3.46765915188509*^9, 
+   3.4676592058234825`*^9}, {3.4676592395738573`*^9, 
+   3.4676592552084208`*^9}, {3.4676592897878785`*^9, 3.467659299155815*^9}, {
+   3.4676593649773965`*^9, 3.4676593674386425`*^9}, {3.4676594706259604`*^9, 
+   3.4676594721801157`*^9}, {3.467659590913988*^9, 3.467659592464143*^9}, {
+   3.4676598654131255`*^9, 3.467659865643135*^9}, {3.467961581551608*^9, 
+   3.4679615900828037`*^9}, {3.4679617083632965`*^9, 
+   3.4679617155038757`*^9}, {3.4679617910033927`*^9, 3.467961791597139*^9}, {
+   3.467961835081236*^9, 3.4679619087057643`*^9}, {3.4679619392368193`*^9, 
+   3.46796195154924*^9}, {3.4679620041739035`*^9, 3.467962030767483*^9}, {
+   3.467962581920206*^9, 3.4679626450291767`*^9}, {3.467974951195649*^9, 
+   3.467974995545369*^9}, {3.46797515731317*^9, 3.4679751636594887`*^9}, {
+   3.469858500330167*^9, 3.469858535627042*^9}, {3.469858645252042*^9, 
+   3.469858680345792*^9}, {3.46994640456818*^9, 3.4699464231929417`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`j$$ = 1, $CellContext`m$$ = 
+    0.00008, $CellContext`n$$ = 0.0024, $CellContext`x$$ = 
+    4, $CellContext`\[Delta]$$ = 0, $CellContext`\[Theta]12$$ = 
+    0.59, $CellContext`\[Theta]13$$ = -0.2, $CellContext`\[Theta]23$$ = 0.79, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`j$$], 1, "initial flavor"}, {
+      1 -> "electron", 2 -> "muon", 3 -> "tau", 4 -> "mass hierarchy"}}, {{
+       Hold[$CellContext`x$$], 4, "indicated flavors"}, {
+      1 -> "electron", 2 -> "muon", 3 -> "tau", 4 -> "all"}}, {
+      Hold[
+       Style["mixing parameters", Bold]], 
+      Manipulate`Dump`ThisIsNotAControl}, {{
+       Hold[$CellContext`\[Theta]23$$], 0.79, 
+       "\!\(\*SubscriptBox[\(\[Theta]\), \(23\)]\)"}, 0, 2, 0.01}, {{
+       Hold[$CellContext`\[Theta]13$$], -0.2, 
+       "\!\(\*SubscriptBox[\(\[Theta]\), \(13\)]\)"}, -0.2, 0.2, 0.01}, {{
+       Hold[$CellContext`\[Theta]12$$], 0.59, 
+       "\!\(\*SubscriptBox[\(\[Theta]\), \(12\)]\)"}, 0, 2 Pi, 0.01}, {
+      Hold[$CellContext`\[Delta]$$], 0, 1, 0.01}, {
+      Hold["                                                              "], 
+      Manipulate`Dump`ThisIsNotAControl}, {
+      Hold[
+       Style["mass parameters", Bold]], Manipulate`Dump`ThisIsNotAControl}, {{
+      
+       Hold[$CellContext`m$$], 0.00008, 
+       Subscript[$CellContext`\[CapitalDelta]m, 21]^2}, -0.0001, 0.0001}, {{
+       Hold[$CellContext`n$$], 0.0024, 
+       Subscript[$CellContext`\[CapitalDelta]m, 31]^2}, -0.0044, 0.0044}}, 
+    Typeset`size$$ = {400., {148., 152.}}, Typeset`update$$ = 0, 
+    Typeset`initDone$$, Typeset`skipInitDone$$ = 
+    False, $CellContext`j$25190$$ = False, $CellContext`x$25191$$ = 
+    False, $CellContext`\[Theta]23$25192$$ = 
+    0, $CellContext`\[Theta]13$25193$$ = 0, $CellContext`\[Theta]12$25194$$ = 
+    0, $CellContext`\[Delta]$25195$$ = 0, $CellContext`m$25196$$ = 
+    0, $CellContext`n$25197$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`j$$ = 1, $CellContext`m$$ = 
+        0.00008, $CellContext`n$$ = 0.0024, $CellContext`x$$ = 
+        4, $CellContext`\[Delta]$$ = 0, $CellContext`\[Theta]12$$ = 
+        0.59, $CellContext`\[Theta]13$$ = -0.2, $CellContext`\[Theta]23$$ = 
+        0.79}, "ControllerVariables" :> {
+        Hold[$CellContext`j$$, $CellContext`j$25190$$, False], 
+        Hold[$CellContext`x$$, $CellContext`x$25191$$, False], 
+        Hold[$CellContext`\[Theta]23$$, $CellContext`\[Theta]23$25192$$, 0], 
+        Hold[$CellContext`\[Theta]13$$, $CellContext`\[Theta]13$25193$$, 0], 
+        Hold[$CellContext`\[Theta]12$$, $CellContext`\[Theta]12$25194$$, 0], 
+        Hold[$CellContext`\[Delta]$$, $CellContext`\[Delta]$25195$$, 0], 
+        Hold[$CellContext`m$$, $CellContext`m$25196$$, 0], 
+        Hold[$CellContext`n$$, $CellContext`n$25197$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> If[$CellContext`j$$ == 4, 
+        Graphics[
+         Table[{
+           $CellContext`c[$CellContext`r], 
+           Rectangle[{
+             Sum[Abs[
+                Part[
+                 $CellContext`V[$CellContext`\[Theta]23$$, $CellContext`\
+\[Theta]13$$, $CellContext`\[Theta]12$$, $CellContext`\[Delta]$$], \
+$CellContext`i, $CellContext`k]]^2, {$CellContext`k, 1, $CellContext`r - 1}], 
+             Part[$CellContext`S, $CellContext`i] Part[
+               $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i]}, {
+             Sum[Abs[
+                Part[
+                 $CellContext`V[$CellContext`\[Theta]23$$, $CellContext`\
+\[Theta]13$$, $CellContext`\[Theta]12$$, $CellContext`\[Delta]$$], \
+$CellContext`i, $CellContext`k]]^2, {$CellContext`k, 1, $CellContext`r}], 
+             Part[$CellContext`S, $CellContext`i] Part[
+                $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i] + 0.01}], Black, 
+           Inset[
+            Style[
+             Subscript["m", $CellContext`i], Italic], {-0.1, 
+             Part[$CellContext`S, $CellContext`i] Part[
+               $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i]}], 
+           Inset[
+            Style["hierarchy of the mass states", Black, Italic, 20], {
+            0.5, Min[
+               Table[Part[$CellContext`S, $CellContext`i] Part[
+                  $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i], {$CellContext`i, 1, 3}]] + 0.6}]}, {$CellContext`r, 1, 
+           3}, {$CellContext`i, 1, 3}], PlotRange -> {{-0.2, 1}, {Min[
+              Table[Part[$CellContext`S, $CellContext`i] Part[
+                 $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i], {$CellContext`i, 1, 3}]] - 0.1, Min[
+              Table[Part[$CellContext`S, $CellContext`i] Part[
+                 $CellContext`M[$CellContext`m$$, $CellContext`n$$], \
+$CellContext`i], {$CellContext`i, 1, 3}]] + 0.7}}, ImageSize -> {400, 300}], 
+        Plot[
+         Evaluate[
+          Table[
+           $CellContext`Q[$CellContext`j$$, $CellContext`i, $CellContext`L, \
+$CellContext`\[Theta]23$$, $CellContext`\[Theta]13$$, \
+$CellContext`\[Theta]12$$, $CellContext`\[Delta]$$, {
+            0, $CellContext`m$$, $CellContext`n$$}], {$CellContext`i, 
+            
+            If[$CellContext`x$$ == 4, {1, 2, 
+             3}, {$CellContext`x$$}]}]], {$CellContext`L, 0, 30000}, 
+         PlotRange -> {0, 1.1}, PlotStyle -> Table[
+           $CellContext`c[$CellContext`i], {$CellContext`i, 
+            If[$CellContext`x$$ == 4, {1, 2, 3}, {$CellContext`x$$}]}], 
+         AxesLabel -> {"distance(km)", 
+           Subscript[$CellContext`P, $CellContext`j$$]}, PlotLabel -> 
+         "probability of finding \neach type of (1GeV) neutrino", Epilog -> 
+         Inset[
+           Panel[
+            Grid[{{
+               Graphics[{Blue, Thick, 
+                 Line[{{0, 0}, {1, 0}}]}, ImageSize -> 14, AspectRatio -> 
+                0.1], "electron"}, {
+               Graphics[{Red, Thick, 
+                 Line[{{0, 0}, {1, 0}}]}, ImageSize -> 14, AspectRatio -> 1], 
+               "muon"}, {
+               Graphics[{Green, Thick, 
+                 Line[{{0, 0}, {1, 0}}]}, ImageSize -> 14, AspectRatio -> 
+                0.1], "tau"}}]], {27000, 0.9}], ImageSize -> {400, 300}]], 
+      "Specifications" :> {{{$CellContext`j$$, 1, "initial flavor"}, {
+         1 -> "electron", 2 -> "muon", 3 -> "tau", 4 -> "mass hierarchy"}, 
+         ControlPlacement -> 
+         Top}, {{$CellContext`x$$, 4, "indicated flavors"}, {
+         1 -> "electron", 2 -> "muon", 3 -> "tau", 4 -> "all"}, 
+         ControlPlacement -> Top, Enabled :> Dynamic[
+           Not[$CellContext`j$$ === 4]]}, 
+        Style[
+        "mixing parameters", 
+         Bold], {{$CellContext`\[Theta]23$$, 0.79, 
+          "\!\(\*SubscriptBox[\(\[Theta]\), \(23\)]\)"}, 0, 2, 0.01, 
+         Appearance -> "Labeled", ImageSize -> 
+         Tiny}, {{$CellContext`\[Theta]13$$, -0.2, 
+          "\!\(\*SubscriptBox[\(\[Theta]\), \(13\)]\)"}, -0.2, 0.2, 0.01, 
+         Appearance -> "Labeled", ImageSize -> 
+         Tiny}, {{$CellContext`\[Theta]12$$, 0.59, 
+          "\!\(\*SubscriptBox[\(\[Theta]\), \(12\)]\)"}, 0, 2 Pi, 0.01, 
+         Appearance -> "Labeled", ImageSize -> 
+         Tiny}, {$CellContext`\[Delta]$$, 0, 1, 0.01, Appearance -> "Labeled",
+          ImageSize -> Tiny}, 
+        "                                                              ", 
+        Style[
+        "mass parameters", 
+         Bold], {{$CellContext`m$$, 0.00008, 
+          Subscript[$CellContext`\[CapitalDelta]m, 21]^2}, -0.0001, 0.0001, 
+         Appearance -> "Labeled", ImageSize -> 
+         Tiny}, {{$CellContext`n$$, 0.0024, 
+          Subscript[$CellContext`\[CapitalDelta]m, 31]^2}, -0.0044, 0.0044, 
+         Appearance -> "Labeled", ImageSize -> Tiny}}, 
+      "Options" :> {ControlPlacement -> Left, AutorunSequencing -> {1, 3, 5}},
+       "DefaultOptions" :> {ControllerLinking -> True}],
+     ImageSizeCache->{634., {203., 208.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    Initialization:>(({$CellContext`c[1] = 
+        RGBColor[0, 0, 1], $CellContext`c[2] = 
+        RGBColor[1, 0, 0], $CellContext`c[3] = 
+        RGBColor[0, 1, 0], $CellContext`V[
+          Pattern[$CellContext`\[Theta]23, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]13, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]12, 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := Inverse[
+          $CellContext`U[$CellContext`\[Theta]23, $CellContext`\[Theta]13, \
+$CellContext`\[Theta]12, $CellContext`\[Delta]]], $CellContext`U[
+          Pattern[$CellContext`\[Theta]23, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]13, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]12, 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := Dot[
+          $CellContext`X[$CellContext`\[Theta]23], 
+          $CellContext`Y[$CellContext`\[Theta]13, $CellContext`\[Delta]], 
+          $CellContext`Z[$CellContext`\[Theta]12]], $CellContext`X[
+          Pattern[$CellContext`\[Theta]23, 
+           Blank[]]] := {{1, 0, 0}, {0, 
+           Cos[$CellContext`\[Theta]23], 
+           Sin[$CellContext`\[Theta]23]}, {0, -Sin[$CellContext`\[Theta]23], 
+           Cos[$CellContext`\[Theta]23]}}, $CellContext`Y[
+          Pattern[$CellContext`\[Theta]13, 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]]] := {{
+           Cos[$CellContext`\[Theta]13], 0, Sin[$CellContext`\[Theta]13] 
+           Exp[(-I) $CellContext`\[Delta]]}, {0, 1, 
+          0}, {(-Sin[$CellContext`\[Theta]13]) Exp[I $CellContext`\[Delta]], 
+           0, 
+           Cos[$CellContext`\[Theta]13]}}, $CellContext`Z[
+          Pattern[$CellContext`\[Theta]12, 
+           Blank[]]] := {{
+           Cos[$CellContext`\[Theta]12], 
+           Sin[$CellContext`\[Theta]12], 0}, {-Sin[$CellContext`\[Theta]12], 
+           Cos[$CellContext`\[Theta]12], 0}, {0, 0, 1}}, $CellContext`S = {0, 
+         600, 100}, $CellContext`M[
+          Pattern[$CellContext`m, 
+           Blank[]], 
+          Pattern[$CellContext`n, 
+           Blank[]]] := {0, $CellContext`m, $CellContext`n}, 
+        Attributes[Subscript] = {NHoldRest}, Subscript[$CellContext`y$557, 0] = 
+        0.5, Subscript[$CellContext`y$604, 0] = 0.481, 
+        Subscript[$CellContext`y$633, 0] = 0.5, 
+        Subscript[$CellContext`y$670, 0] = 0.676, 
+        Subscript[$CellContext`y$698, 0] = 0.481, 
+        Subscript[$CellContext`y$727, 0] = 0.5, 
+        Attributes[$CellContext`y$557] = {Temporary}, 
+        Attributes[$CellContext`y$604] = {Temporary}, 
+        Attributes[$CellContext`y$633] = {Temporary}, 
+        Attributes[$CellContext`y$670] = {Temporary}, 
+        Attributes[$CellContext`y$698] = {Temporary}, 
+        Attributes[$CellContext`y$727] = {Temporary}, 
+        Attributes[PlotRange] = {ReadProtected}, $CellContext`Q[
+          Pattern[$CellContext`\[Alpha], 
+           Blank[]], 
+          Pattern[$CellContext`\[Beta], 
+           Blank[]], 
+          Pattern[$CellContext`L, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]23, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]13, 
+           Blank[]], 
+          Pattern[$CellContext`\[Theta]12, 
+           Blank[]], 
+          Pattern[$CellContext`\[Delta], 
+           Blank[]], 
+          Pattern[$CellContext`m, 
+           Blank[]]] := Abs[
+           Sum[Conjugate[
+              Part[
+               $CellContext`U[$CellContext`\[Theta]23, \
+$CellContext`\[Theta]13, $CellContext`\[Theta]12, $CellContext`\[Delta]], \
+$CellContext`\[Alpha], $CellContext`i]] Part[
+              $CellContext`U[$CellContext`\[Theta]23, \
+$CellContext`\[Theta]13, $CellContext`\[Theta]12, $CellContext`\[Delta]], \
+$CellContext`\[Beta], $CellContext`i] 
+            Exp[(-I) 2.53 
+              Part[$CellContext`m, $CellContext`i] $CellContext`L], \
+{$CellContext`i, 1, 3}]]^2, Attributes[Thick] = {ReadProtected}}; 
+      Typeset`initDone$$ = True); ReleaseHold[
+       HoldComplete[{$CellContext`X[
+           Pattern[$CellContext`\[Theta]23, 
+            Blank[]]] := {{1, 0, 0}, {0, 
+            Cos[$CellContext`\[Theta]23], 
+            Sin[$CellContext`\[Theta]23]}, {
+           0, -Sin[$CellContext`\[Theta]23], 
+            Cos[$CellContext`\[Theta]23]}}, $CellContext`Y[
+           Pattern[$CellContext`\[Theta]13, 
+            Blank[]], 
+           Pattern[$CellContext`\[Delta], 
+            Blank[]]] := {{
+            Cos[$CellContext`\[Theta]13], 0, Sin[$CellContext`\[Theta]13] 
+            Exp[(-I) $CellContext`\[Delta]]}, {0, 1, 
+           0}, {(-Sin[$CellContext`\[Theta]13]) Exp[I $CellContext`\[Delta]], 
+            0, 
+            Cos[$CellContext`\[Theta]13]}}, $CellContext`Z[
+           Pattern[$CellContext`\[Theta]12, 
+            Blank[]]] := {{
+            Cos[$CellContext`\[Theta]12], 
+            Sin[$CellContext`\[Theta]12], 0}, {-Sin[$CellContext`\[Theta]12], 
+            
+            Cos[$CellContext`\[Theta]12], 0}, {0, 0, 1}}, $CellContext`U[
+           Pattern[$CellContext`\[Theta]23, 
+            Blank[]], 
+           Pattern[$CellContext`\[Theta]13, 
+            Blank[]], 
+           Pattern[$CellContext`\[Theta]12, 
+            Blank[]], 
+           Pattern[$CellContext`\[Delta], 
+            Blank[]]] := Dot[
+           $CellContext`X[$CellContext`\[Theta]23], 
+           $CellContext`Y[$CellContext`\[Theta]13, $CellContext`\[Delta]], 
+           $CellContext`Z[$CellContext`\[Theta]12]], $CellContext`V[
+           Pattern[$CellContext`\[Theta]23, 
+            Blank[]], 
+           Pattern[$CellContext`\[Theta]13, 
+            Blank[]], 
+           Pattern[$CellContext`\[Theta]12, 
+            Blank[]], 
+           Pattern[$CellContext`\[Delta], 
+            Blank[]]] := Inverse[
+           $CellContext`U[$CellContext`\[Theta]23, $CellContext`\[Theta]13, \
+$CellContext`\[Theta]12, $CellContext`\[Delta]]], $CellContext`Q[
+            Pattern[$CellContext`\[Alpha], 
+             Blank[]], 
+            Pattern[$CellContext`\[Beta], 
+             Blank[]], 
+            Pattern[$CellContext`L, 
+             Blank[]], 
+            Pattern[$CellContext`\[Theta]23, 
+             Blank[]], 
+            Pattern[$CellContext`\[Theta]13, 
+             Blank[]], 
+            Pattern[$CellContext`\[Theta]12, 
+             Blank[]], 
+            Pattern[$CellContext`\[Delta], 
+             Blank[]], 
+            Pattern[$CellContext`m, 
+             Blank[]]] := Abs[
+             Sum[Conjugate[
+                Part[
+                 $CellContext`U[$CellContext`\[Theta]23, \
+$CellContext`\[Theta]13, $CellContext`\[Theta]12, $CellContext`\[Delta]], \
+$CellContext`\[Alpha], $CellContext`i]] Part[
+                $CellContext`U[$CellContext`\[Theta]23, \
+$CellContext`\[Theta]13, $CellContext`\[Theta]12, $CellContext`\[Delta]], \
+$CellContext`\[Beta], $CellContext`i] 
+              Exp[(-I) 2.53 
+                Part[$CellContext`m, $CellContext`i] $CellContext`L], \
+{$CellContext`i, 1, 3}]]^2; Null, $CellContext`M[
+           Pattern[$CellContext`m, 
+            Blank[]], 
+           Pattern[$CellContext`n, 
+            Blank[]]] := {
+          0, $CellContext`m, $CellContext`n}, $CellContext`S = {0, 600, 100}; 
+         Null}]]; Typeset`initDone$$ = True),
+    SynchronousInitialization->True,
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellID->397183169],
+
+Cell[CellGroupData[{
+
+Cell["CAPTION", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell["\<\
+Experiments show that neutrinos initially created with a definite flavor \
+(electron, muon, or tau) can be found with a different flavor after they \
+travel far from the source. This is caused by neutrino oscillation. In the \
+language of quantum physics, the states representing the three types of \
+flavor do not have definite mass. Each of the mass eigenstates is a linear \
+combination of the flavor states. The oscillation phenomenon depends on the \
+parameters of the model, namely the mass differences of the mass eigenstates \
+and the mixing parameters, from which the coefficients of the linear \
+combination can be calculated. The plots show the probability of finding a 1 \
+GeV neutrino in the different flavors as a function of the distance between \
+the source and the detector. The fourth figure demonstrates the hierarchy of \
+the neutrino masses and the flavor coefficients in each eigenstate.\
+\>", "Text"]
+}, Close]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["DETAILS", "Section",
+ CellFrame->{{0, 0}, {1, 0}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->12,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "In particle physics three types of neutrinos (electron, muon, tau) are \
+known. They can be described mathematically in a vector space in which the \
+three flavor states ( ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{"e", ">"}]}], TraditionalForm]], "InlineMath"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{"\[Mu]", ">"}]}], TraditionalForm]], "InlineMath"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{"\[Tau]", ">"}]}], TraditionalForm]], "InlineMath"],
+ " ) define a basis. However, these states are not eigenvectors of the \
+Hamiltonian of that three-dimensional system, so they do not have definite \
+masses. The mass states are linear combinations of the flavor states: ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{"f", "\[GreaterEqual]", 
+     FormBox[
+      RowBox[{
+       RowBox[{
+        UnderoverscriptBox["\[Sum]", 
+         RowBox[{"i", "=", "1"}], "3"], 
+        SubscriptBox["U", 
+         RowBox[{"f", ",", "i"}]]}], "|", 
+       RowBox[{
+        SubscriptBox["m", "i"], ">"}]}],
+      TraditionalForm]}]}], TraditionalForm]], "InlineMath"],
+ ". "
+}], "Text"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox["U", TraditionalForm]], "InlineMath"],
+ ", the mixing matrix, is unitary. If the initial state is a flavor state, \
+then after time ",
+ Cell[BoxData[
+  FormBox["t", TraditionalForm]], "InlineMath"],
+ " it will evolve into ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"|", 
+    RowBox[{
+     RowBox[{"\[CapitalPsi]", "(", "t", ")"}], "\[GreaterEqual]", 
+     RowBox[{
+      FormBox[
+       RowBox[{
+        RowBox[{
+         UnderoverscriptBox["\[Sum]", 
+          RowBox[{"i", "=", "1"}], "3"], 
+         SubscriptBox["U", 
+          RowBox[{"f", ",", "i"}]]}], "|", 
+        RowBox[{
+         SubscriptBox["m", "i"], ">"}]}],
+       TraditionalForm], 
+      FormBox[
+       SuperscriptBox["e", 
+        RowBox[{
+         RowBox[{"-", "i"}], " ", 
+         SubscriptBox["E", "i"], "t"}]],
+       TraditionalForm]}]}]}], TraditionalForm]], "InlineMath"],
+ " (in units with ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[HBar]", "=", "1"}], TraditionalForm]], "InlineMath"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"c", "=", "1"}], TraditionalForm]], "InlineMath"],
+ "), where ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["E", "i"], TraditionalForm]], "InlineMath"],
+ " are the energies of the three neutrinos. We know that neutrinos are \
+extremely light objects so that they travel approximately at the speed of \
+light. Thus ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"L", "\[TildeTilde]", "t"}], TraditionalForm]], "InlineMath"],
+ " and their energies are ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["E", "i"], "=", 
+    RowBox[{
+     SubscriptBox["p", "i"], "+", 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["m", "i"], "2"], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", "p"}], ")"}]}]}]}], TraditionalForm]], "InlineMath"],
+ ". We want to know the probability of finding a neutrino initially created \
+with flavor ",
+ Cell[BoxData[
+  FormBox["f", TraditionalForm]], "InlineMath"],
+ " in ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"f", "'"}], TraditionalForm]], "InlineMath"],
+ ": ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["P", 
+     RowBox[{"f", "\[Rule]", 
+      RowBox[{"f", " ", "'"}]}]], "=", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"\[LeftBracketingBar]", 
+       RowBox[{"\[LeftAngleBracket]", 
+        RowBox[{
+         RowBox[{"f", "'"}], " ", "\[VerticalSeparator]", 
+         RowBox[{"\[CapitalPsi]", "(", "L", ")"}]}], "\[RightAngleBracket]"}],
+        "\[RightBracketingBar]"}], "2"], "=", 
+     SuperscriptBox[
+      RowBox[{"\[LeftBracketingBar]", 
+       RowBox[{
+        UnderoverscriptBox["\[Sum]", 
+         RowBox[{"i", "=", "1"}], "3"], 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["U", 
+           RowBox[{
+            RowBox[{"f", " ", "'"}], "i"}]], "\[Conjugate]"}], 
+         SubscriptBox["U", 
+          RowBox[{"f", ",", "i"}]], 
+         SuperscriptBox["E", 
+          RowBox[{
+           RowBox[{"-", "i"}], " ", 
+           SubscriptBox["E", "i"], "L"}]]}]}], "\[RightBracketingBar]"}], 
+      "2"]}]}], TraditionalForm]], "InlineMath"],
+ ". This formula depends only on the energy differences ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[CapitalDelta]", "\[InvisibleSpace]", 
+     SubscriptBox["E", "i"]}], "=", 
+    RowBox[{"\[CapitalDelta]", "\[InvisibleSpace]", 
+     RowBox[{
+      SuperscriptBox[
+       SubscriptBox["m", "i"], "2"], "/", 
+      RowBox[{"(", 
+       RowBox[{"2", "p"}], ")"}]}]}]}], TraditionalForm]], "InlineMath"],
+ "."
+}], "Text"],
+
+Cell[TextData[{
+ "The first two parameters of the model are the mass-square differences. It \
+can be shown that there are four other relevant parameters contained in ",
+ Cell[BoxData[
+  FormBox["U", TraditionalForm]], "InlineMath"],
+ ": three real angle parameters (if ",
+ Cell[BoxData[
+  FormBox["U", TraditionalForm]], "InlineMath"],
+ " is real this is just a rotation) and one complex phase factor. Some of \
+these parameters are already known from experiments. In this Demonstration \
+the default setting of that parameter is the measured value."
+}], "Text"],
+
+Cell["\<\
+More details about experiments and theory are found in the references:\
+\>", "Text"],
+
+Cell[TextData[{
+ "Wikipedia, \"",
+ ButtonBox["Solar Neutrino Problem.",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://en.wikipedia.org/wiki/Solar_neutrino_problem"], None},
+  ButtonNote->"http://en.wikipedia.org/wiki/Solar_neutrino_problem"],
+ "\""
+}], "Text"],
+
+Cell[TextData[{
+ "Wikipedia, \"",
+ ButtonBox["Neutrino Oscillation",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://en.wikipedia.org/wiki/Neutrino_oscillation"], None},
+  ButtonNote->"http://en.wikipedia.org/wiki/Neutrino_oscillation"],
+ ".\""
+}], "Text"]
+}, Close]],
+
+Cell[CellGroupData[{
+
+Cell["THIS NOTEBOOK IS THE SOURCE CODE FROM", "Text",
+ CellFrame->{{0, 0}, {0, 0}},
+ CellMargins->{{48, 10}, {4, 28}},
+ CellGroupingRules->{"SectionGrouping", 25},
+ CellFrameMargins->{{48, 48}, {6, 5}},
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ FontFamily->"Helvetica",
+ FontSize->10,
+ FontWeight->"Bold",
+ FontColor->RGBColor[0.597406, 0, 0.0527047]],
+
+Cell[TextData[{
+ "\"",
+ ButtonBox["Neutrino Oscillations",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/NeutrinoOscillations/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/NeutrinoOscillations/"],
+ "\"",
+ " from ",
+ ButtonBox["the Wolfram Demonstrations Project",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+ "\[ParagraphSeparator]\[NonBreakingSpace]",
+ ButtonBox["http://demonstrations.wolfram.com/NeutrinoOscillations/",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/NeutrinoOscillations/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/NeutrinoOscillations/"]
+}], "Text",
+ CellMargins->{{48, Inherited}, {0, Inherited}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.5]],
+
+Cell[TextData[{
+ "Contributed by: ",
+ ButtonBox["Bal\[AAcute]zs Mesz\[EAcute]na",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/author.html?author=Bal%E1zs+Mesz%\
+E9na"], None},
+  ButtonNote->
+   "http://demonstrations.wolfram.com/author.html?author=Bal%E1zs+Mesz%E9na"]
+}], "Text",
+ CellDingbat->"\[FilledSmallSquare]",
+ CellMargins->{{66, 48}, {2, 4}},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.6]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "A full-function Wolfram ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " system (Version 6 or higher) is required to edit this notebook.\n",
+ StyleBox[ButtonBox["GET WOLFRAM MATHEMATICA \[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.wolfram.com/products/mathematica/"], None},
+  ButtonNote->"http://www.wolfram.com/products/mathematica/"],
+  FontFamily->"Helvetica",
+  FontWeight->"Bold",
+  FontSlant->"Italic",
+  FontColor->RGBColor[1, 0.42, 0]]
+}], "Text",
+ CellFrame->True,
+ CellMargins->{{48, 68}, {8, 28}},
+ CellFrameMargins->12,
+ CellFrameColor->RGBColor[0.87, 0.87, 0.87],
+ CellChangeTimes->{3.3750111182355957`*^9},
+ ParagraphSpacing->{1., 1.},
+ FontFamily->"Verdana",
+ FontSize->10,
+ FontColor->GrayLevel[0.411765],
+ Background->RGBColor[1, 1, 1]],
+
+Cell[TextData[{
+ "\[Copyright] ",
+ StyleBox[ButtonBox["Wolfram Demonstrations Project & Contributors",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Terms of Use",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/termsofuse.html"], None},
+  ButtonNote->"http://demonstrations.wolfram.com/termsofuse.html"],
+  FontColor->GrayLevel[0.6]],
+ "\[ThickSpace]\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+ StyleBox[ButtonBox["Make a new version of this Demonstration \
+\[RightGuillemet]",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://demonstrations.wolfram.com/participate/upload.jsp?id=\
+NeutrinoOscillations"], None},
+  ButtonNote->None],
+  FontColor->GrayLevel[0.6]]
+}], "Text",
+ CellFrame->{{0, 0}, {0, 0.5}},
+ CellMargins->{{48, 10}, {20, 50}},
+ CellFrameMargins->{{6, 0}, {6, 6}},
+ CellFrameColor->GrayLevel[0.6],
+ FontFamily->"Verdana",
+ FontSize->9,
+ FontColor->GrayLevel[0.6]]
+}, Open  ]]
+}, Open  ]]
+},
+Editable->True,
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+CellInsertionPointCell->None,
+WindowSize->{780, 650},
+WindowMargins->{{Inherited, Inherited}, {Inherited, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "VerticalScrollBar", 
+  "MenuBar"},
+WindowTitle->"Neutrino Oscillations - Source",
+DockedCells->{},
+CellContext->Notebook,
+FrontEndVersion->"8.0 for Microsoft Windows (32-bit) (November 7, 2010)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[623, 23, 141, 3, 70, "Section"],
+Cell[767, 28, 3700, 64, 70, "Section"],
+Cell[4470, 94, 569, 17, 70, "Input",
+ InitializationCell->True,
+ CellID->60690850],
+Cell[5042, 113, 855, 26, 70, "Input",
+ InitializationCell->True,
+ CellID->460849761],
+Cell[5900, 141, 569, 17, 70, "Input",
+ InitializationCell->True,
+ CellID->81814952],
+Cell[6472, 160, 391, 12, 70, "Input",
+ InitializationCell->True,
+ CellID->353308],
+Cell[6866, 174, 367, 12, 70, "Input",
+ InitializationCell->True,
+ CellID->195916846],
+Cell[7236, 188, 1343, 40, 70, "Input",
+ InitializationCell->True,
+ CellID->153672748],
+Cell[8582, 230, 207, 7, 70, "Input",
+ InitializationCell->True,
+ CellID->92974252],
+Cell[8792, 239, 269, 8, 70, "Input",
+ InitializationCell->True,
+ CellID->415433832],
+Cell[9064, 249, 15450, 371, 70, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24551, 625, 16081, 334, 70, "Output",
+ CellID->397183169],
+Cell[CellGroupData[{
+Cell[40657, 963, 209, 6, 70, "Section"],
+Cell[40869, 971, 933, 13, 70, "Text"]
+}, Close]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41850, 990, 209, 6, 70, "Section"],
+Cell[42062, 998, 1158, 36, 70, "Text"],
+Cell[43223, 1036, 3496, 113, 70, "Text"],
+Cell[46722, 1151, 562, 11, 70, "Text"],
+Cell[47287, 1164, 94, 2, 70, "Text"],
+Cell[47384, 1168, 272, 8, 70, "Text"],
+Cell[47659, 1178, 266, 8, 70, "Text"]
+}, Close]],
+Cell[CellGroupData[{
+Cell[47961, 1191, 355, 9, 70, "Text",
+ CellGroupingRules->{"SectionGrouping", 25}],
+Cell[48319, 1202, 898, 24, 70, "Text"],
+Cell[49220, 1228, 460, 14, 70, "Text"],
+Cell[CellGroupData[{
+Cell[49705, 1246, 815, 24, 70, "Text"],
+Cell[50523, 1272, 1192, 33, 70, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+(* NotebookSignature AQzwsmtlxToKHD0fFS4OxYqM *)
